@@ -13,3 +13,24 @@ r=0.05
 n=10
 mul=a*(1+r)**n
 print(mul)
+
+x=7%4
+y=9%3
+print(x)
+print(y)
+
+#초를 몇분 몇초로 계산
+sec=1000
+min= 1000//60
+remainder =1000%60
+print(min, remainder)
+
+#최대한 살수있는 사탕의 개수와 나머지 거스름돈
+mymoney=5000
+candyPrice=120
+#살수있는 사탕수
+numCandies= mymoney//candyPrice
+print(numCandies)
+#거스름돈
+remain=mymoney-(candyPrice*numCandies) #remain = mymoney%candyPrice
+print(remain)
