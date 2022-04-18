@@ -1,0 +1,16 @@
+#파티준비
+people=int(input("총 참석자의 수를 입력하시오:"))
+
+chicken = people
+beer= people*2
+cake= people*4
+print("치킨의수:",chicken)
+print("맥주의 수:", beer)
+print("케익의 수:", cake)
+
+#변수값 교환
+x=10
+y=20
+x=y #x에 저장된 값없어지고 20 할당 따라서 x값은 임의의 변수를 생성해 저장해놔야함.
+y=x
+
